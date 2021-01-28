@@ -13,6 +13,6 @@ This is a simple example for machine learning to predict TWII future price step 
 
 On GridSearchCV, it would find the best hyperparameter to avoid overfitting. The executing process is standardized on Pipeline 1~6, including Features Choosing, Principal Component Analysis(components = 3 or 5), MinMaxScaler or StandardScaler, Lasso Regression with different Alpha parameter. Besides, Cross-validation use TimeSeriesSplit on sklearn, and the score set “neg mean squared error”.
 
-Final result about train test prediction show on pictures, also there is one picture compare with different Alpha. Downlaod the code and file you can do by yourself. Just change the file adress. Hope you will like it.
+Final result about train test prediction show on pictures, also there's one picture of result compare with different Alpha. Downlaod the code and file you can do by yourself. Remember to change the file adress. Hope you will like it.
 
 Enjoy it.
