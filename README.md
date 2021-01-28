@@ -7,9 +7,9 @@ This is a simple example for machine learning to predict TWII future price step 
 
 * Train set: 2010-01-01 ~ 2018-12-31
 * Test set: After 2019-01-01
-* Feature 1: TWII close price(t) and mean average(t-1 ~ t-4)
-* Feature 2: Listed stock close price(t) and mean average(t-1 ~ t-4) with PCA
-* Feature 3: TWII and listed stock close price(t) and mean average(t-1 ~ t-4) with PCA
+* Feature 1: TWII close price (t) and mean average (t-1 ~ t-4)
+* Feature 2: Listed stock close price(t) and mean average (t-1 ~ t-4) with PCA
+* Feature 3: TWII and listed stock close price (t) and mean average (t-1 ~ t-4) with PCA
 
 On GridSearchCV, it would find the best hyperparameter to avoid overfitting. The executing process is standardized on Pipeline 1~6, including Features Choosing, Principal Component Analysis(components = 3 or 5), MinMaxScaler or StandardScaler, Lasso Regression with different Alpha parameter. Besides, Cross-validation use TimeSeriesSplit on sklearn, and the score set “neg mean squared error”.
 
