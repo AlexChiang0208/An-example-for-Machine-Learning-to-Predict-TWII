@@ -15,4 +15,4 @@ On GridSearchCV, it would find the best hyperparameter to avoid overfitting. The
 
 Final result about train test prediction show on pictures, also there's one picture of result compare with different Alpha. Downlaod the code and file you can do by yourself. Remember to change the file adress. Hope you will like it.
 
-Enjoy it.
+Enjoy.
